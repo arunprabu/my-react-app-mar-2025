@@ -1,0 +1,81 @@
+
+
+React 
+----
+  version 18.3.1 
+
+  React Apps can be built by either using 
+    1. JS 
+    2. TS (RECOMMENDED)
+  
+
+  React Apps can be created using 
+  ---
+    1. Vite (Most Popular and Recommended)
+    2. create-react-app (DEPRECATED as it was using webpack)
+
+
+  Build Tools 
+  ---
+    Webpack  [DEPRECATED]
+    Vite [RECOMMENDED]
+
+
+
+Project Structure
+---
+  src/ 
+    assets/ (images, audios, videos, icons, fonts)
+    pages/ (or features)
+    components/
+      shared/
+        Header.tsx 
+
+
+==
+Prereq
+---
+  SPA 
+  Layout 
+  Components 
+  REST API 
+
+
+Components 
+---
+  Functional Component 
+  ----
+    1. Functional Component with Named Function 
+    2. Functional Component with Anonymous Function 
+    3. Functional Component with Arrow Function 
+
+
+  JSX 
+  ---
+    * all tags must be closed -- either by self-closing / separately closing 
+    * class attribute should be replaced with className
+
+  CSS 
+  ---
+
+  TS
+  ---
+
+
+Data Binding 
+---
+  
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  

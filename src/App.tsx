@@ -13,6 +13,12 @@
 import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
 import './App.css' // css (optional)
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Netflix from "./pages/Netflix";
+import Employees from "./pages/Employees";
+import Todos from "./pages/Todos";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   // must return JSX
@@ -22,7 +28,14 @@ function App() {
       <Header />
 
       <main className="container mt-5 pt-2">
-        <h1>Success!</h1>
+        {/* Ideal place for routing configuration */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/netflix" element={<Netflix />} />
+          <Route path="/employees" element={<Employees />} />
+          <Route path="/todos" element={<Todos />} />
+          <Route path="/about-us" element={<AboutUs />} />
+        </Routes>
       </main>
 
       <Footer />

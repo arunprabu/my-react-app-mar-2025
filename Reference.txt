@@ -17,10 +17,11 @@ React
 
   Build Tools 
   ---
-    Webpack  [DEPRECATED]
+    Webpack 
     Vite [RECOMMENDED]
 
 
+npm create vite@latest 
 
 Project Structure
 ---
@@ -55,22 +56,123 @@ Components
     * all tags must be closed -- either by self-closing / separately closing 
     * class attribute should be replaced with className
 
+
   CSS 
   ---
 
   TS
   ---
 
+Core Concepts 
+----
+  Props 
+  States 
+  Events 
+  Lists & Keys 
+  Conditional Rendering 
 
-Data Binding 
+Advanced Concepts
+----
+  Routing 
+  REST API Calls 
+  Hooks 
+    * useState
+    * useEffect 
+    * useReducer
+    * useRef 
+    * useContext 
+  Forms 
+  Build and Deployment
+
+State Management Frameworks / Libraries 
+-----
+  * React Context API 
+  * Redux-Toolkit (modern redux)
+
+
+  * Zustand (preferred)
+  * Jotai 
+  * Recoil 
+  * Classic Redux (not Recommended)
+
+
+Single Page App
+-----
+  Characteristics 
+  --------------- 
+    1. Pages should NOT Reload between link clicks [DONE]
+    2. URL Should change [DONE]
+    3. Browser History should be maintained w/o page refresh [DONE]
+    4. Header and Footer should not be loaded again and again [DONE]
+    5. The Section in between header and footer should show contextual updates [DONE]
+    6. Active menu should be set 
+    7. Page Title should change 
+
+Routing
+====
+  As react is a library, let's use the third party tool react-router-dom to setup routing.
+
+  Step 1:
+  ---
+    npm i react-router-dom
+
+  Step 2: 
+  ---
+    Identify the Menus and the URLs 
+    
+    Home              /
+    Netflix           /netflix
+    Employee Manager  /employees
+    Todos             /todos 
+    About Us          /about-us 
+
+    Let's add the menus in MenuList.
+
+  Step 3: 
+  ---
+    Let's create the necessary components for the Menus 
+
+    Home                    Home Component 
+    Netflix                 Netflix Component
+    Employee Manager        Employees Components
+    Todos                   Todos Component
+    About Us                AboutUs Component
+
+  Step 4
+  ----
+    To setup routing configuration, do the following first.
+    Load the app component under BrowserRouter in main.tsx 
+
+  Step 5:
+  ----
+    Let's configure the routes in App.tsx.
+    Check the app. Page is still reloading. Let's fix
+
+  Step 6: 
+  ---
+    in MenuList replace <a href=""  with <Link to="" 
+
+
+
+
+
+====
+
+Training Ends on: 30th April 2025. (Wednesday)
+Capstone Project Presentation Date: 5th May 2025 (Monday)
+
+Capstone Project Requirement
 ---
+  1. Urls 
+      /about-us 
+      /about-us/team 
+      /about-us/history 
+      /about-us/locations
+
+
+
+
   
-
-
-
-
-
-
 
 
 

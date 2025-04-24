@@ -65,18 +65,18 @@ Components
 
 Core Concepts 
 ----
-  Props 
-  States 
-  Events 
+  Props [DONE]
+  States [DONE]
+  Events [DONE]
   Lists & Keys 
   Conditional Rendering 
 
 Advanced Concepts
 ----
-  Routing 
+  Routing [DONE]
   REST API Calls 
   Hooks 
-    * useState
+    * useState [DONE]
     * useEffect 
     * useReducer
     * useRef 
@@ -106,7 +106,7 @@ Single Page App
     4. Header and Footer should not be loaded again and again [DONE]
     5. The Section in between header and footer should show contextual updates [DONE]
     6. Active menu should be set 
-    7. Page Title should change 
+    7. Page Title should change (tip: use react-helmet-async)
 
 Routing
 ====
@@ -173,6 +173,14 @@ Capstone Project Requirement
 
 
   
+Rules of Hooks 
+---
+  * use hooks only in functional components
+  * use hooks only in top level
+  * do not use hooks in nested level
+  * do not use hooks in conditional rendering, loops, nested functions
+  * do not use hooks after if/else, for loops, after functions 
+
 
 
 

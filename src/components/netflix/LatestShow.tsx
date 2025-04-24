@@ -1,13 +1,11 @@
-interface LatestShowProps {
-  title: string;
-  description: string;
-  thumbnailUrl: string;
-}
+import { ShowProps } from "../../models/netflix/ShowProps";
 
-const LatestShow = ( props: LatestShowProps ) => {
+const LatestShow = ( props: ShowProps ) => {
   console.log(props);
   /* props
     * receive data from parent component via props
+    * props are immutable (i.e read-only)
+    * props are of objects
   */
   return (
     <div className="card">

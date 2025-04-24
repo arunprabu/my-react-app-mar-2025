@@ -8,7 +8,7 @@ const LatestShowList = () => {
         <LatestShow 
           title="The Godfather" 
           description="An American crime drama film directed by Francis Ford..."
-          thumbnailUrl="https://placehold.co/600x400/EEE/31343C" />
+          thumbnailUrl="https://placehold.co/600x400/EEE/31343C"/>
       </div>
 
       <div className="col-md-3">

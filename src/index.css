@@ -1,1 +1,5 @@
-/* Global Styles */
+/* Global Styles - App-wide styles */
+
+.red-text {
+  color: red;
+}

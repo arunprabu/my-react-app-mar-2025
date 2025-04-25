@@ -68,26 +68,30 @@ Core Concepts
   Props [DONE]
   States [DONE]
   Events [DONE]
-  Lists & Keys 
+  Lists & Keys [DONE]
   Conditional Rendering 
+    * Inside JSX [DONE]
+    * Outside JSX
+
+  Styles [DONE]
 
 Advanced Concepts
 ----
   Routing [DONE]
-  REST API Calls 
+  REST API Calls [Monday]
   Hooks 
     * useState [DONE]
-    * useEffect 
-    * useReducer
-    * useRef 
-    * useContext 
-  Forms 
-  Build and Deployment
+    * useEffect  [Monday]
+    * useReducer [Tuesday]
+    * useRef [Tuesday]
+    * useContext [Tuesday]
+  Forms  [Monday]
+  Build and Deployment [Wednesday]
 
 State Management Frameworks / Libraries 
 -----
   * React Context API 
-  * Redux-Toolkit (modern redux)
+  * Redux-Toolkit (modern redux) [Wednesday]
 
 
   * Zustand (preferred)

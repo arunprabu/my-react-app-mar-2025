@@ -8,7 +8,7 @@ const Footer = function() {
     <footer className="text-center">
       <hr />
       <MenuList />
-      <p>Copyright {copyrightYear} | Arun</p>
+      <p className="red-text yellow-bg">Copyright {copyrightYear} | Arun</p>
     </footer>
   )
 }

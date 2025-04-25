@@ -19,6 +19,7 @@ import Netflix from "./pages/Netflix";
 import Employees from "./pages/Employees";
 import Todos from "./pages/Todos";
 import AboutUs from "./pages/AboutUs";
+import AddEmployee from "./components/employees/AddEmployee";
 
 function App() {
   // must return JSX
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/netflix" element={<Netflix />} />
           <Route path="/employees" element={<Employees />} />
+          <Route path="/employees/add" element={<AddEmployee />} />
           <Route path="/todos" element={<Todos />} />
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>

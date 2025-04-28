@@ -78,14 +78,14 @@ Core Concepts
 Advanced Concepts
 ----
   Routing [DONE]
-  REST API Calls [Monday]
+  REST API Calls [DONE]
   Hooks 
     * useState [DONE]
-    * useEffect  [Monday]
+    * useEffect  [DONE]
     * useReducer [Tuesday]
     * useRef [Tuesday]
     * useContext [Tuesday]
-  Forms  [Monday]
+  Forms  [DONE]
   Build and Deployment [Wednesday]
 
 State Management Frameworks / Libraries 

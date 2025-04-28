@@ -6,9 +6,9 @@ import { BrowserRouter } from 'react-router-dom'
 
 // App component is rendered inside div with id root
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // <StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  // </StrictMode>,
 )

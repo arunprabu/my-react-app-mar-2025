@@ -6,7 +6,7 @@ const Employees = () => {
   console.log("1. Program Started");
 
   // Let's first keep the state with initial data
-  const [employeeList, setEmployeeList] = useState([]);
+  const [employeeList, setEmployeeList] = useState([]); // initial data
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   // ideal place for you to connect to the backend -- useEffect hook

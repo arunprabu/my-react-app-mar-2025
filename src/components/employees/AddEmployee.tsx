@@ -30,19 +30,25 @@ const AddEmployee = () => {
         <div className="form-group row mb-3">
           <label htmlFor="nameInput" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
-            <input type="text" className="form-control" id="nameInput" placeholder="Enter Name" {...register("employeeName")} />
+            <input type="text" className="form-control" id="nameInput" 
+            placeholder="Enter Name" 
+            {...register("employeeName")} />
           </div>
         </div>
         <div className="form-group row mb-3">
           <label htmlFor="phoneInput" className="col-sm-2 col-form-label">Phone</label>
           <div className="col-sm-10">
-            <input type="text" className="form-control" placeholder="Enter Phone" id="phoneInput" {...register("phone")} />
+            <input type="text" className="form-control" placeholder="Enter Phone" 
+            id="phoneInput" 
+            {...register("phone")} />
           </div>
         </div>
         <div className="form-group row mb-3">
           <label htmlFor="emailInput" className="col-sm-2 col-form-label">Email</label>
           <div className="col-sm-10">
-            <input type="email" className="form-control" placeholder="Enter Email" id="emailInput" {...register("email")} />
+            <input type="email" className="form-control" placeholder="Enter Email" 
+            id="emailInput" 
+            {...register("email")} />
           </div>
         </div>
         {

@@ -14,7 +14,10 @@ const MenuList = () => {
         <Link className="nav-link" to="/employees">Employees</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/todos">Todos</Link>
+        <Link className="nav-link" to="/todos-version1">Todos using useState</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/todos-version2">Todos using useReducer</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="/about-us">About Us</Link>

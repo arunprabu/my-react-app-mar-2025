@@ -90,7 +90,7 @@ Advanced Concepts
 
 State Management Frameworks / Libraries 
 -----
-  * React Context API 
+  * React Context API [Tuesday]
   * Redux-Toolkit (modern redux) [Wednesday]
 
 
@@ -186,10 +186,12 @@ Rules of Hooks
   * do not use hooks after if/else, for loops, after functions 
 
 
+useReducer
+====
+  * reducer is a function that takes in 2 params and returns state
+
+  function todoReducer(state, action) {
 
 
-  
-
-  
-  
-  
+    return state;
+  }

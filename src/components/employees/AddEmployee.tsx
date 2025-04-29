@@ -9,7 +9,6 @@ const AddEmployee = () => {
   const handleAddEmployee = (formData: any) => { // collect the form data
     console.log(formData);
     // let's submit the form data
-    
     // 1. What's the REST API URL? https://jsonplaceholder.typicode.com/users
     // 2. What's the HTTP Method? POST
     // 3. What's the REST API Client tool? axios 

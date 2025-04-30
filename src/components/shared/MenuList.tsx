@@ -20,6 +20,9 @@ const MenuList = () => {
         <Link className="nav-link" to="/todos-version2">Todos using useReducer</Link>
       </li>
       <li className="nav-item">
+        <Link className="nav-link" to="/spotify">Spotify</Link>
+      </li>
+      <li className="nav-item">
         <Link className="nav-link" to="/about-us">About Us</Link>
       </li>
     </ul>

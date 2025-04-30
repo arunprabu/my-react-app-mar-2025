@@ -82,15 +82,15 @@ Advanced Concepts
   Hooks 
     * useState [DONE]
     * useEffect  [DONE]
-    * useReducer [Tuesday]
-    * useRef [Tuesday]
-    * useContext [Tuesday]
+    * useReducer [DONE]
+    * useRef [DONE]
+    * useContext [DONE]
   Forms  [DONE]
-  Build and Deployment [Wednesday]
+  Build and Deployment [DONE]
 
 State Management Frameworks / Libraries 
 -----
-  * React Context API [Tuesday]
+  * React Context API [DONE]
   * Redux-Toolkit (modern redux) [Wednesday]
 
 
@@ -195,3 +195,16 @@ useReducer
 
     return state;
   }
+
+Any to Any Component Communication
+---
+  Implementing Context API - Steps for any to any component communication
+  ===
+    0. Let's have the necessary components (AudioTracks, MyPlaylist)
+    1. Create a new context  in contexts/PlaylistContext.tsx
+    2. Provide the context to the necessary components
+      2.1. ContextProvider  is needed for us to supply the data
+      2.2. It should be accessible to the necessary the components
+    3. consume the context in the necessary components with useContext 
+
+====

@@ -4,8 +4,12 @@ import { ITrack } from "../../models/spotify/ITrack";
 
 const MyPlaylist = () => {
   // let's get the data from the context -- use the hook named useContext
-  const { playlist } = useContext(PlaylistContext);
+  const { playlist, setPlaylist } = useContext(PlaylistContext);
   console.log(playlist);
+
+  const handleRemoveTrack = (trackId: number) => {
+    setPlaylist(playlist.filter((track: ITrack) => track.id !== trackId));
+  };
 
   return (
     <div className="col-md-6">
@@ -22,7 +26,7 @@ const MyPlaylist = () => {
                     <span className="text-muted">Artists: {track.artist}</span>
                     <span className="text-muted ps-2">Duration: {track.duration}</span>
                   </div>
-                  <button className="btn btn-danger btn-sm">-</button>
+                  <button className="btn btn-danger btn-sm" onClick={() => handleRemoveTrack(track.id)}>-</button>
                 </li>
               )
             })

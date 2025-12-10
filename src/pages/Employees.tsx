@@ -67,7 +67,7 @@ const Employees = () => {
                     <h5 className="card-title">{employee?.name}</h5>
                     <p className="card-text">Phone: {employee?.phone}</p>
                     <p className="card-text">Email: {employee?.email}</p>
-                    <Link to={employee?.id} className="btn btn-outline-primary btn-sm">View More</Link>
+                    <Link to={`/employees/${employee?.id}`} className="btn btn-outline-primary btn-sm">View More</Link>
                   </div>
                 </div>
               </div>

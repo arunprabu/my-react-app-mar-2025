@@ -19,9 +19,9 @@ export function todosReducer(state: ITodo[], action: any) {
         action.payload
       ]
 
-    case "DELTE_TODO": 
+    case "DELETE_TODO":
       // return the todosList after deleting the action.payload.id
-      return  state
+      return state.filter(todo => todo.id !== action.payload.id)
   }
   return state;
 }

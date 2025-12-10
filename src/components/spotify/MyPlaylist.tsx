@@ -7,7 +7,7 @@ const MyPlaylist = () => {
   const { playlist, setPlaylist } = useContext(PlaylistContext);
   console.log(playlist);
 
-  const handleRemoveTrack = (trackId: number) => {
+  const handleRemoveTrack = (trackId: string | number) => {
     setPlaylist(playlist.filter((track: ITrack) => track.id !== trackId));
   };
 

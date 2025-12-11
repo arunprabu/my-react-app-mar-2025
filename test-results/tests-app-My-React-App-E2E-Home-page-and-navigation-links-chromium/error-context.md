@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "My React App" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - navigation "Main navigation" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Home" [ref=e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e12]:
+            - link "Netflix" [ref=e13] [cursor=pointer]:
+              - /url: /netflix
+          - listitem [ref=e14]:
+            - link "Employees" [ref=e15] [cursor=pointer]:
+              - /url: /employees
+          - listitem [ref=e16]:
+            - link "Todos using useReducer" [ref=e17] [cursor=pointer]:
+              - /url: /todos-version2
+          - listitem [ref=e18]:
+            - link "Spotify" [ref=e19] [cursor=pointer]:
+              - /url: /spotify
+          - listitem [ref=e20]:
+            - link "Blogs" [ref=e21] [cursor=pointer]:
+              - /url: /blogs
+          - listitem [ref=e22]:
+            - link "Notes" [ref=e23] [cursor=pointer]:
+              - /url: /notes
+          - listitem [ref=e24]:
+            - link "About Us" [ref=e25] [cursor=pointer]:
+              - /url: /about-us
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - heading "React App Demo" [level=1] [ref=e28]
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi quis non qui veniam eaque earum, vel similique exercitationem voluptatibus beatae enim quia aspernatur nam id doloribus, ea nesciunt blanditiis.
+        - generic [ref=e31]:
+          - button "Browse Netflix" [ref=e32] [cursor=pointer]
+          - button "Manage Employees" [ref=e33] [cursor=pointer]
+  - contentinfo [ref=e34]:
+    - separator [ref=e35]
+    - navigation "Main navigation" [ref=e36]:
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - link "Home" [ref=e39] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e40]:
+          - link "Netflix" [ref=e41] [cursor=pointer]:
+            - /url: /netflix
+        - listitem [ref=e42]:
+          - link "Employees" [ref=e43] [cursor=pointer]:
+            - /url: /employees
+        - listitem [ref=e44]:
+          - link "Todos using useReducer" [ref=e45] [cursor=pointer]:
+            - /url: /todos-version2
+        - listitem [ref=e46]:
+          - link "Spotify" [ref=e47] [cursor=pointer]:
+            - /url: /spotify
+        - listitem [ref=e48]:
+          - link "Blogs" [ref=e49] [cursor=pointer]:
+            - /url: /blogs
+        - listitem [ref=e50]:
+          - link "Notes" [ref=e51] [cursor=pointer]:
+            - /url: /notes
+        - listitem [ref=e52]:
+          - link "About Us" [ref=e53] [cursor=pointer]:
+            - /url: /about-us
+    - paragraph [ref=e54]: Copyright 2025 | Arun
+```

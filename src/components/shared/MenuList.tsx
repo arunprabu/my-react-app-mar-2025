@@ -21,6 +21,9 @@ const MenuList = () => {
           <NavLink className="nav-link" to="/spotify">Spotify</NavLink>
         </li>
         <li className="nav-item">
+          <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink className="nav-link" to="/notes">Notes</NavLink>
         </li>
         <li className="nav-item">

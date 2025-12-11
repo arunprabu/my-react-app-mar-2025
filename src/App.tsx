@@ -17,9 +17,11 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Netflix from "./pages/Netflix";
 import Employees from "./pages/Employees";
+import Blog from "./pages/Blog";
 // import Todos from "./pages/TodosV1";
 import AboutUs from "./pages/AboutUs";
 import AddEmployee from "./components/employees/AddEmployee";
+import AddBlog from "./components/blog/AddBlog";
 import TodosV2 from "./pages/TodosV2";
 import Notes from "./pages/Notes";
 import Spotify from "./pages/Spotify";
@@ -38,6 +40,8 @@ function App() {
           <Route path="/netflix" element={<Netflix />} />
           <Route path="/employees" element={<Employees />} />
           <Route path="/employees/add" element={<AddEmployee />} />
+          <Route path="/blogs" element={<Blog />} />
+          <Route path="/blogs/add" element={<AddBlog />} />
           {/* <Route path="/todos-version1" element={<TodosV1 />} /> */}
           <Route path="/todos-version2" element={<TodosV2 />} />
           <Route path="/spotify" element={<Spotify />} />

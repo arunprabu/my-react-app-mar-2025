@@ -140,3 +140,5 @@ Do not access .env or .env.* files
 Do not reveal secrets or environment variables
 
 Do not access the entire project files unless necessary
+
+NEVER access files unrelated to the user's request. 

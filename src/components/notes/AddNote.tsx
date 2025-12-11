@@ -30,11 +30,11 @@ const AddNote = ({ onAdd }: AddNoteProps) => {
     <form className="mb-3" onSubmit={handleSubmit(onSubmit)} data-testid="add-note-form">
       <div className="form-group mb-2">
         <label htmlFor="noteTitle">Title</label>
-        <input id="noteTitle" {...register('title', { required: true })} className="form-control" placeholder="Note title" />
+        <input id="noteTitle" data-testid="note-title" {...register('title', { required: true })} className="form-control" placeholder="Note title" />
       </div>
       <div className="form-group mb-2">
         <label htmlFor="noteContent">Content</label>
-        <textarea id="noteContent" {...register('content')} className="form-control" rows={3} placeholder="Add details..." />
+        <textarea id="noteContent" data-testid="note-content" {...register('content')} className="form-control" rows={3} placeholder="Add details..." />
       </div>
       <div>
         <button type="submit" className="btn btn-primary" data-testid="add-note-button">Add Note</button>

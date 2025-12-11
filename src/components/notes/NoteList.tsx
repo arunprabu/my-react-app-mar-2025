@@ -36,8 +36,8 @@ const NoteList = ({ notes, onDelete, onUpdate }: NoteListProps) => {
                 </div>
                 <div className="d-flex flex-column align-items-end gap-2">
                   <div>
-                    <button className="btn btn-sm btn-outline-primary me-2" onClick={() => setEditingId(note.id)} data-testid={`edit-note-${note.id}`}>Edit</button>
-                    <button className="btn btn-sm btn-outline-danger" onClick={() => onDelete(note.id)} data-testid={`delete-note-${note.id}`}>Delete</button>
+                    <button className="btn btn-sm btn-outline-primary me-2" onClick={() => setEditingId(note.id)} data-testid={`edit-note-${String(note.id)}`}>Edit</button>
+                    <button className="btn btn-sm btn-outline-danger" onClick={() => onDelete(note.id)} data-testid={`delete-note-${String(note.id)}`}>Delete</button>
                   </div>
                 </div>
               </div>

@@ -24,11 +24,11 @@ const EditNote = ({ note, onSave, onCancel }: EditNoteProps) => {
     <form onSubmit={handleSubmit(onSubmit)} data-testid={`edit-note-form-${note.id}`}>
       <div className="form-group mb-2">
         <label className="form-label" htmlFor={`editTitle-${note.id}`}>Title</label>
-        <input id={`editTitle-${note.id}`} className="form-control" {...register('title', { required: true })} />
+        <input id={`editTitle-${note.id}`} data-testid={`edit-note-title-${String(note.id)}`} className="form-control" {...register('title', { required: true })} />
       </div>
       <div className="form-group mb-2">
         <label className="form-label" htmlFor={`editContent-${note.id}`}>Content</label>
-        <textarea id={`editContent-${note.id}`} className="form-control" {...register('content')} rows={3}></textarea>
+        <textarea id={`editContent-${note.id}`} data-testid={`edit-note-content-${String(note.id)}`} className="form-control" {...register('content')} rows={3}></textarea>
       </div>
       <div className="d-flex gap-2">
         <button type="submit" className="btn btn-primary btn-sm" data-testid={`save-note-${note.id}`}>Save</button>

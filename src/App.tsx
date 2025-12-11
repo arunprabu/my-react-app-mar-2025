@@ -21,11 +21,12 @@ import Employees from "./pages/Employees";
 import AboutUs from "./pages/AboutUs";
 import AddEmployee from "./components/employees/AddEmployee";
 import TodosV2 from "./pages/TodosV2";
+import Notes from "./pages/Notes";
 import Spotify from "./pages/Spotify";
 
 function App() {
   // must return JSX
-  return(
+  return (
     // Here comes JSX
     <div>
       <Header />
@@ -41,6 +42,7 @@ function App() {
           <Route path="/todos-version2" element={<TodosV2 />} />
           <Route path="/spotify" element={<Spotify />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/notes" element={<Notes />} />
         </Routes>
       </main>
 
